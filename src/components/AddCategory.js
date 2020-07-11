@@ -13,6 +13,7 @@ const AddCategory = ({ setCategories }) => {
       if (inputValue.trim() === "") {
         return;
       }
+      console.log("Enter key Pressed");
       setCategories((categories) => [inputValue.trim(), ...categories]);
       setInputValue("");
     }

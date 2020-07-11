@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <AddCategory /> debe de mostrarse correctamente 1`] = `
+<Fragment>
+  <input
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    placeholder="Search a Gif..."
+    type="text"
+    value=""
+  />
+</Fragment>
+`;
